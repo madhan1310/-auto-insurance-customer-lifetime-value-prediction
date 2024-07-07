@@ -1,39 +1,69 @@
-Auto Insurance Customer Lifetime Value Prediction
-This project focuses on predicting Customer Lifetime Value (CLV) for an auto insurance company using linear regression analysis. The model incorporates various factors such as number of policies, monthly premium, total claim amount, number of open complaints, and marital status to forecast CLV accurately.
-Project Overview
+# Auto Insurance Customer Lifetime Value Prediction
 
-Objective: Develop a predictive model for Customer Lifetime Value in the auto insurance sector.
-Data Source: UCI ML Repository dataset from Kaggle
-Methodology: Linear Regression with log transformations for continuous variables
-Key Features: Monthly Premium Auto, Total Claim Amount, Number of Policies, Number of Open Complaints, Marital Status
+## Overview
+This project develops a predictive model for Customer Lifetime Value (CLV) in the auto insurance sector using linear regression analysis. It incorporates factors such as number of policies, monthly premium, total claim amount, number of open complaints, and marital status to forecast CLV accurately.
 
-Key Findings
+### Data Source
+UCI ML Repository dataset from Kaggle, containing customer information from 5 American states.
 
-The model explains approximately 25.56% of the variability in log(CLV).
-All predictors are statistically significant (p < 0.05).
-Monthly Premium Auto has the strongest positive relationship with CLV.
-Number of Open Complaints has a negative impact on CLV.
+## Methodology
 
-Model Performance
+### Data Analysis
+- Exploratory Data Analysis (EDA) on key variables
+- Correlation analysis
+- Visualization of relationships between CLV and predictor variables
 
-R-squared: 0.2556
-Adjusted R-squared: 0.2552
-F-statistic: Significant (p < 2.2e-16)
+### Model Development
+- Linear Regression with log transformations for continuous variables
+- Testing of key assumptions:
+  1. Linearity in parameters
+  2. Independence of errors
+  3. Homoscedasticity
+  4. No perfect multicollinearity
+  5. Normality of errors
+  6. No endogeneity
 
-Challenges and Future Work
+## Key Findings
 
-Heteroskedasticity issues identified
-Potential omitted variable bias
-Future improvements could include exploring advanced techniques like XGBoost, Random Forest, and Neural Networks
+### Model Performance
+- R-squared: 0.2556
+- Adjusted R-squared: 0.2552
+- F-statistic: Significant (p < 2.2e-16)
 
-Skills Demonstrated
+### Variable Impacts
+- Monthly Premium Auto: Strong positive relationship with CLV
+- Number of Open Complaints: Negative impact on CLV
+- All predictors statistically significant (p < 0.05)
 
-Data Analysis and Visualization
-Linear Regression Modeling
-Statistical Assumption Testing
-Business Insight Generation
+## Challenges and Future Work
 
-Tools Used
+### Limitations
+- Heteroskedasticity issues identified
+- Potential omitted variable bias
 
-R (for statistical analysis)
-Kaggle (data source)
+### Future Improvements
+- Explore advanced techniques:
+  - XGBoost
+  - Random Forest
+  - Neural Networks
+- Incorporate additional variables (e.g., driving experience, age, education)
+
+## Skills Demonstrated
+- Data Analysis and Visualization
+- Linear Regression Modeling
+- Statistical Assumption Testing
+- Business Insight Generation
+
+## Tools Used
+- R (for statistical analysis)
+- Kaggle (data source)
+
+## Contributors
+- Amrutha Somashskehar
+- Nishanth Gopenathan
+- Sai Madhan Muthyam
+- Sai Sampath Patro Yellumahanti
+- Sriram Koushik Majeti
+- Vyshali Chintapalli
+
+This project was completed as part of the Applied Econometrics and Time Series Analysis course (BUAN 6312.004).
