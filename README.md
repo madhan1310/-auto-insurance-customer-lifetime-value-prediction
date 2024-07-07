@@ -65,4 +65,6 @@ UCI ML Repository dataset from Kaggle, containing customer information from 5 Am
 - `notebooks/`: Jupyter Notebook for exploratory data analysis
 - `scripts/`: R script for the CLV prediction model
 - `presentation/`: PowerPoint presentation of project findings
-- `report.pdf`: Comprehensive final project report
+- `6312.004_GROUP10_FINALREPORT 1.pdf`: Comprehensive final project report
+- `6312.004_Group10-Final-Presentation.ppt`: PowerPoint presentation of project findings
+- `README.md`: Overview and instructions for the project
