@@ -56,14 +56,5 @@ UCI ML Repository dataset from Kaggle, containing customer information from 5 Am
 
 ## Tools Used
 - R (for statistical analysis)
+- Jupyter Notebook (for exploratory data analysis)
 - Kaggle (data source)
-
-## Contributors
-- Amrutha Somashskehar
-- Nishanth Gopenathan
-- Sai Madhan Muthyam
-- Sai Sampath Patro Yellumahanti
-- Sriram Koushik Majeti
-- Vyshali Chintapalli
-
-This project was completed as part of the Applied Econometrics and Time Series Analysis course (BUAN 6312.004).
