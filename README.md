@@ -58,3 +58,11 @@ UCI ML Repository dataset from Kaggle, containing customer information from 5 Am
 - R (for statistical analysis)
 - Jupyter Notebook (for exploratory data analysis)
 - Kaggle (data source)
+
+## Repository Contents
+
+- `data/`: Contains the input dataset from Kaggle
+- `notebooks/`: Jupyter Notebook for exploratory data analysis
+- `scripts/`: R script for the CLV prediction model
+- `presentation/`: PowerPoint presentation of project findings
+- `requirements.txt`: List of required R and Python packages
